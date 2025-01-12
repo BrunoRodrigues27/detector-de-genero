@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>genero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Gênero</h1>
+        <section id="opcao">
+            <label for="ihomem">Homem</label>
+            <input type="radio" name="sexo" id="ihomem" checked>
+            <label for="imulher">Mulher</label>
+            <input type="radio" name="sexo" id="imulher">
+        </section>
+        <section id="data">
+            <label for="ianonascimento:">Ano de Nascimento:</label>
+            <input type="number" name="anonascimento" id="ianonascimento" value="1935" min="1935">
+        </section>
+        <section id="botao">
+            <input type="submit" id="verificar" value="Verificar">
+        </section>
+        <div id="mensagem">
+
+        </div>
+        <img id="imagem" src="interrogacao.png" alt="">
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>
